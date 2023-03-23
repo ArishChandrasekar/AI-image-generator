@@ -49,8 +49,7 @@ const Home = () => {
         const searchResults =
           allPosts.filter((item) =>
             item.name.toLowerCase().includes(searchText.toLowerCase())
-          ) ||
-          item.prompt.toLowerCase().includes(searchText.toLocaleLowerCase());
+          ) || item.prompt.toLowerCase().includes(searchText.toLowerCase());
 
         setSearchResults(searchResults);
       }, 500)
