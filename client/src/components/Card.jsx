@@ -26,7 +26,7 @@ const Card = ({ _id, name, prompt, photo }) => {
             <div
               className="w-7 h-7 rounded-full object-cover
             bg-green-700 flex justify-center items-center
-            text-white text-xs font-bold "
+            text-white text-xs font-bold mb-2"
             >
               {name[0]}
             </div>
